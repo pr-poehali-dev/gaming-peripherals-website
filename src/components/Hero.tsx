@@ -58,11 +58,11 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="order-1 lg:order-2 relative">
-            <div className="relative">
+            <div className="relative max-w-md mx-auto">
               <img
                 src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                 alt="Геймерские устройства"
-                className="rounded-lg shadow-2xl neon-border relative z-10 object-cover w-full"
+                className="rounded-lg shadow-2xl neon-border relative z-10 object-cover w-full h-64 md:h-80"
               />
               <div className="absolute -bottom-4 -right-4 bg-gaming-blue/80 text-white py-2 px-4 rounded-lg font-bold shadow-xl">
                 <span className="text-sm block opacity-80">Скидка</span>
